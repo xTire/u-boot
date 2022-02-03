@@ -343,9 +343,11 @@
 
 #define FASTBOOT_BLKDEV                 "mmc0"
 
-#ifndef CONFIG_DOS_PARTITION
-#define CONFIG_DOS_PARTITION
-#endif
+/* 
+*#ifndef CONFIG_DOS_PARTITION
+*#define CONFIG_DOS_PARTITION
+*#endif 
+*/
 
 #define CONFIG_MAX_PARTITION_NUM        20      // Max partitions for fastboot
 

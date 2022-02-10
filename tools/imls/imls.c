@@ -38,10 +38,10 @@
 #endif
 
 #include <sha1.h>
-#include <fdt.h>
-#include <fdt_support.h>
 #include <image.h>
 
+#include "fdt.h"
+#include "fdt_support.h"
 #include "libfdt.h"
 
 #define MIN(a, b) (((a) < (b)) ? (a) : (b))

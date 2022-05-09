@@ -32,7 +32,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <sha1.h>
-//#include "fdt_host.h"
+#include "fdt_host.h"
 
 #undef MKIMAGE_DEBUG
 
